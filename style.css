@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    padding-top: 32px;
+    background-color: #ff69b4;
+}
+
+.header-menu nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.lista-menu li>a{
+    color: #ffe0ff;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: inherit;
+
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    background-color: #fbd5e5;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.imagem-perfil {
+    width: 20%;
+    border-radius: 200px;
+}
+
+.nome-completo {
+    color: #ec0d7d;
+    font-size: 36px;
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao {
+    color: #ff1b82;
+    line-height: 32px;
+}
+
+.texto-sobre {
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.section-lista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topico-principal{
+    font-size: 36px;
+    color: #ff1b82;
+}
+
+.lista-item {
+    padding: 32px;
+}
+
+.lista-titulo {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color:#eb489a;
+    font-weight: 700;
+}
+
+.lista-local {
+    font-size: 18px;
+    color: #bd13ec;
+}
+
+.lista-descricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: black;
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+}
+
+.wrapper-portfolio{
+    background-color: #ffafea;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #BE89CB;
+    padding: 44px;
+    color: white;
+}
+
+.contatos {
+    display: flex;
+    margin-left: 25px;
+    color: white;
+}
+
+.rodape-iten {
+    display: flex;
+    margin-top: 5px;
+    line-height: 20px;
+    text-decoration: inherit;
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    font-weight: bolder;
+    justify-content: space-evenly;
+}
